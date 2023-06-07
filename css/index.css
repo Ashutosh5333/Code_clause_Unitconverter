@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unit-container-box{
+  margin: auto;
+  height: 100%;
+}
+
+.Nav-unit{
+    border: 2px solid green;
+    height: 50px;
+    background-color: #006633;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.Nav-unit > div > h1{
+    color: #fff;
+    font-size: 1.9rem;
+     margin-top: 9px;
+     font-weight: 500;
+}
+.Nav-unit > div > h1  span{
+  color: rgb(46, 202, 46);
+} 
+
+
+/* --------  converter css ----------- */
+
+.convert-bag{
+ border: 3px solid black;
+  height: 600px;
+}
+
+.convert-bag > h2{
+    margin-top: 45px;
+    margin-left: 45px;
+   color: #006633;
+}
+  
+
+
+/* ------ convert length -------- */
+
+.convert-length{
+    border: 5px solid black;
+
+}
