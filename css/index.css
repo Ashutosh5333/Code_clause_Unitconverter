@@ -24,6 +24,7 @@
      margin-top: 9px;
      font-weight: 500;
 }
+
 .Nav-unit > div > h1  span{
   color: rgb(46, 202, 46);
 } 
@@ -38,7 +39,7 @@
 
 .convert-bag > h2{
     margin-top: 45px;
-    margin-left: 45px;
+    margin-left: 185px;
    color: #006633;
 }
   
@@ -47,6 +48,85 @@
 /* ------ convert length -------- */
 
 .convert-length{
-    border: 5px solid black;
-
+    border: 1px solid green;
+    height: 400px;
+     width: 60%;
+     margin-top: 20px;
+     margin-left: 85px;
+     background-color: #eeeeee;  
+     display: flex;
+     justify-content: space-around;
 }
+
+
+
+.convert-from > h2{
+    margin-bottom: 10px ;
+    margin-top: 10px;
+}
+
+.convert-from > input{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+
+.convert-to > h2{
+    margin-bottom: 10px ;
+    margin-top: 10px;
+}
+
+.convert-to > input{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+         /* -------- Form list --------- */
+
+         .from-list{
+            border: 2px solid gray;
+            height: 300px;
+             margin-top: 5px;
+            scroll-behavior: smooth;
+            overflow: scroll;
+         }
+
+         .from-list > h3{
+             margin-top: 5px;
+         }
+
+         .from-to{
+            border: 2px solid gray;
+            height: 300px;
+            margin-top: 5px;
+            scroll-behavior: smooth;
+            overflow: scroll;
+         }
+
+         .from-to > h3{
+            margin-top: 5px;
+        }
+
+        .from-list> h3:hover{
+            background-color: rgb(202, 190, 190);
+        }
+
+        .from-to> h3:hover{
+            background-color: rgb(202, 190, 190);
+        }
+
+
+
+        /* ---------- result  -------------  */
+
+        #result{
+            border: 2px solid red;
+             width: 60%;
+             margin: auto;
+             height: 40px;
+             margin-left: 85px;
+        }
