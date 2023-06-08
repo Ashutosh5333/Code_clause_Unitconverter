@@ -6,7 +6,7 @@
  
    let fromresult = document.getElementById("kilometer")
    fromresult.innerHTML=""
-   fromresult.innerHTML+=frommeter
+   fromresult.innerHTML+=frommeter || clear()
 
 
  }
@@ -19,7 +19,7 @@
       const centimentasn =Math.round((centimeter*0.01) *100) /100
       let fromresultcentimeter = document.getElementById("kilometer-2")
       fromresultcentimeter.innerHTML=""
-      fromresultcentimeter.innerHTML+=centimentasn
+      fromresultcentimeter.innerHTML+=centimentasn|| clear()
     }
     
     function getvalue2(){
@@ -29,7 +29,7 @@
     
    let fromresultmilians = document.getElementById("kilometer-3")
    fromresultmilians.innerHTML=""
-   fromresultmilians.innerHTML+=frommilimeter
+   fromresultmilians.innerHTML+=frommilimeter|| clear()
 
     }
 
@@ -40,7 +40,7 @@
       const metertomicro =Math.round((fromneter*1000) *100) 
       let fromresultmeter = document.getElementById("kilometer-4")
       fromresultmeter.innerHTML=""
-      fromresultmeter.innerHTML+=metertomicro
+      fromresultmeter.innerHTML+=metertomicro|| clear()
 
     }
 
@@ -57,7 +57,7 @@
 
     let fromresult = document.getElementById("gallons")
     fromresult.innerHTML=""
-    fromresult.innerHTML+=frommeter || ""
+    fromresult.innerHTML+=frommeter || clear()
 
   }
 
@@ -66,7 +66,7 @@
     const centimentasn =Math.round((fromgallons/0.264) *100) /100
     let fromresultcentimeter = document.getElementById("litre")
     fromresultcentimeter.innerHTML=""
-    fromresultcentimeter.innerHTML+=centimentasn
+    fromresultcentimeter.innerHTML+=centimentasn|| clear()
    }
 
    
@@ -75,7 +75,7 @@
     const frommpounds =  Math.round((frommili * 2.204) * 100) / 100;
     let fromresultmilians = document.getElementById("Pounds")
     fromresultmilians.innerHTML=""
-    fromresultmilians.innerHTML+=frommpounds
+    fromresultmilians.innerHTML+=frommpounds|| clear()
    }
 
    function getvaluetemp3(){
@@ -85,7 +85,7 @@
    
     let fromresultkilos = document.getElementById("kilos")
     fromresultkilos.innerHTML=""
-    fromresultkilos.innerHTML+=fromkilo
+    fromresultkilos.innerHTML+=fromkilo|| clear()
  
    }
 
