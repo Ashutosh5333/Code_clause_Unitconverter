@@ -130,3 +130,30 @@
              height: 40px;
              margin-left: 85px;
         }
+
+       /* -----------  To Kilo  ------------  */
+
+       #kilometer{
+        border: 2px solid black;
+        height: 39px;
+        width: 250px;
+        border-radius: 5px;
+       }
+       #kilometer-2{
+        border: 2px solid black;
+        height: 39px;
+        width: 250px;
+        border-radius: 5px;
+       }
+       #kilometer-3{
+        border: 2px solid black;
+        height: 39px;
+        width: 250px;
+        border-radius: 5px;
+       }
+       #kilometer-4{
+        border: 2px solid black;
+        height: 39px;
+        width: 250px;
+        border-radius: 5px;
+       }

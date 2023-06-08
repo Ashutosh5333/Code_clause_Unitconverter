@@ -1,32 +1,37 @@
-let fromvalue = document.getElementById("from-input").value;
 
-     // -----------
-
-
-  let frommeter = document.getElementById("from-meter").value
-   let fromkilo = document.getElementById("from-kilo").value
-   let fromcenti = document.getElementById("from-centi").value
-   let frommili = document.getElementById("from-mili").value
-   let frommicro = document.getElementById("from-micro").value
-   let fromnano = document.getElementById("from-nano").value
-   let frommile = document.getElementById("from-mile").value
-   let fromyard = document.getElementById("from-yard").value
-   let fromfoot = document.getElementById("from-foot").value
-   let frominch = document.getElementById("from-inch").value
-   let fromlight = document.getElementById("from-light").value
 
  function getvalue (){
    let fromvalue = document.getElementById("from-input").value;
-   console.log(fromvalue)
-   const frommeter =  Math.round((fromvalue *0.001) *1000) /1000
+   let centimeter = document.getElementById("from-inputceneti").value;
+   let frommili = document.getElementById("from-input-mili").value ;
+   let fromneter = document.getElementById("from-input-mter").value ;
+   
 
-   let fromresult = document.getElementById("result")
+   const frommeter =  Math.round((fromvalue*0.001) *1000) /1000
+   const centimentasn =Math.round((centimeter*0.01) *100) /100
+   const frommilimeter =  Math.round((frommili*0.001) *1000) /1000
+   const metertomicro =Math.round((fromneter*1000) *100) 
+
+
+   let fromresult = document.getElementById("kilometer")
    fromresult.innerHTML=""
    fromresult.innerHTML+=frommeter
 
-  //  let fromresultkiliinput = document.getElementById("kilometer")
-  //  fromresultkiliinput.innerHTML=frommeter
+   let fromresultcentimeter = document.getElementById("kilometer-2")
+   fromresultcentimeter.innerHTML=""
+   fromresultcentimeter.innerHTML+=centimentasn
 
+   
+   let fromresultmilians = document.getElementById("kilometer-3")
+   fromresultmilians.innerHTML=""
+   fromresultmilians.innerHTML+=frommilimeter
+
+   
+   let fromresultmeter = document.getElementById("kilometer-4")
+   fromresultmeter.innerHTML=""
+   fromresultmeter.innerHTML+=metertomicro
+
+   
 
  }
 
